@@ -118,13 +118,27 @@ The application follows Object-Oriented Programming principles.
   
 ---
 ## Application Workflow
-
-1. Select an OpenModelica executable.
-2. Enter the simulation start time.
-3. Enter the simulation stop time.
-4. Click **Run Simulation**.
-5. Wait for execution to finish.
-6. Open the generated results folder.
+```text
+Select Executable
+        │
+        ▼
+Enter Start Time
+        │
+        ▼
+Enter Stop Time
+        │
+        ▼
+Run Simulation
+        │
+        ▼
+Execute OpenModelica Model
+        │
+        ▼
+Generate Result Files
+        │
+        ▼
+Open Results Folder
+```
 
 ---
 ## Author
