@@ -1,0 +1,26 @@
+<p>C:/Users/leena/AppData/Local/Temp/OpenModelica/OMEdit/NonInteractingTanks.TwoConnectedTanks/TwoConnectedTanks.exe -port=55747 -logFormat=xmltcp -startTime=0 -stopTime=1 -stepSize=0.002 -tolerance=1e-06 -s=dassl -outputFormat=mat -variableFilter=.* -r=C:/Users/leena/AppData/Local/Temp/OpenModelica/OMEdit/NonInteractingTanks.TwoConnectedTanks/TwoConnectedTanks_res.mat -w -lv=LOG_STDOUT,LOG_ASSERT,LOG_STATS -inputPath=C:/Users/leena/AppData/Local/Temp/OpenModelica/OMEdit/NonInteractingTanks.TwoConnectedTanks -outputPath=C:/Users/leena/AppData/Local/Temp/OpenModelica/OMEdit/NonInteractingTanks.TwoConnectedTanks</p>
+LOG_SUCCESS		| info	 | <p>The initialization finished successfully without homotopy method.</p>
+LOG_STATS		| info	 | <p>### STATISTICS ###</p>
+|		| |	 | | <p>timer</p>
+|		| |	 | | | <p>   0.0013485s          reading init.xml</p>
+|		| |	 | | | <p>   0.0009426s          reading info.xml</p>
+|		| |	 | | | <p>   0.0017785s [ 21.2%] pre-initialization</p>
+|		| |	 | | | <p>   0.0005976s [  7.1%] initialization</p>
+|		| |	 | | | <p>     6.7e-06s [  0.1%] steps</p>
+|		| |	 | | | <p>    0.000671s [  8.0%] solver (excl. callbacks)</p>
+|		| |	 | | | <p>   0.0014002s [ 16.7%] creating output-file</p>
+|		| |	 | | | <p>   0.0001059s [  1.3%] event-handling</p>
+|		| |	 | | | <p>   0.0001283s [  1.5%] overhead</p>
+|		| |	 | | | <p>   0.0037081s [ 44.2%] simulation</p>
+|		| |	 | | | <p>   0.0083963s [100.0%] total</p>
+|		| |	 | | <p>events</p>
+|		| |	 | | | <p>    0 state events</p>
+|		| |	 | | | <p>    0 time events</p>
+|		| |	 | | <p>solver: dassl</p>
+|		| |	 | | | <p>   21 steps taken</p>
+|		| |	 | | | <p>   21 calls of functionODE</p>
+|		| |	 | | | <p>   20 evaluations of jacobian</p>
+|		| |	 | | | <p>    0 error test failures</p>
+|		| |	 | | | <p>    0 convergence test failures</p>
+|		| |	 | | | <p>5.8e-06s time of jacobian evaluation</p>
+LOG_SUCCESS		| info	 | <p>The simulation finished successfully.</p>
