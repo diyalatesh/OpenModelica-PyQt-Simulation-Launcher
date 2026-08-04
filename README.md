@@ -88,6 +88,18 @@ Stop Time: 4
 Simulation executes successfully and generates the result files.
 
 ---
+## Application Preview
+
+### Main Window
+
+![Main Window](main-window.png)
+
+### Simulation Completed
+
+![Simulation Completed](simulation.png)
+
+---
+
 
 ## Author
 
