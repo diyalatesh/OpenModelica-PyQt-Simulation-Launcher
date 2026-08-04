@@ -99,8 +99,34 @@ Simulation executes successfully and generates the result files.
 ![Simulation Completed](simulation.png)
 
 ---
+## Future Enhancements
 
+- Support multiple OpenModelica simulation models.
+- Allow exporting simulation results to CSV.
+- Display simulation graphs directly inside the application.
+- Save previously used simulation configurations.
+- Improve UI with themes and icons.
 
+---
+## Object-Oriented Design
+
+The application follows Object-Oriented Programming principles.
+
+- `MainWindow` class manages the complete GUI.
+- Methods are separated for browsing files, executing simulations, opening results, and updating progress.
+- The design makes the application modular and easy to extend.
+  
+---
+## Application Workflow
+
+1. Select an OpenModelica executable.
+2. Enter the simulation start time.
+3. Enter the simulation stop time.
+4. Click **Run Simulation**.
+5. Wait for execution to finish.
+6. Open the generated results folder.
+
+---
 ## Author
 
 Diya Latesh
