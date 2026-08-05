@@ -99,24 +99,6 @@ Simulation executes successfully and generates the result files.
 ![Simulation Completed](images/simulation.png)
 
 ---
-## Future Enhancements
-
-- Support multiple OpenModelica simulation models.
-- Allow exporting simulation results to CSV.
-- Display simulation graphs directly inside the application.
-- Save previously used simulation configurations.
-- Improve UI with themes and icons.
-
----
-## Object-Oriented Design
-
-The application follows Object-Oriented Programming principles.
-
-- `MainWindow` class manages the complete GUI.
-- Methods are separated for browsing files, executing simulations, opening results, and updating progress.
-- The design makes the application modular and easy to extend.
-  
----
 ## Application Workflow
 ```text
 Select Executable
@@ -139,6 +121,25 @@ Generate Result Files
         ▼
 Open Results Folder
 ```
+
+---
+## Object-Oriented Design
+
+The application follows Object-Oriented Programming principles.
+
+- `MainWindow` class manages the complete GUI.
+- Methods are separated for browsing files, executing simulations, opening results, and updating progress.
+- The design makes the application modular and easy to extend.
+  
+---
+## Future Enhancements
+
+- Support multiple OpenModelica simulation models.
+- Allow exporting simulation results to CSV.
+- Display simulation graphs directly inside the application.
+- Save previously used simulation configurations.
+- Improve UI with themes and icons.
+
 
 ---
 ## Author
