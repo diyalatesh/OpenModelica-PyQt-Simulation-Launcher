@@ -1,5 +1,9 @@
 # OpenModelica Simulation Launcher
 
+![Python](https://img.shields.io/badge/Python-3-blue)
+![PyQt6](https://img.shields.io/badge/PyQt6-GUI-green)
+![OpenModelica](https://img.shields.io/badge/OpenModelica-Simulation-orange)
+
 ## Overview
 
 This project is a desktop application developed using Python and PyQt6 to execute OpenModelica simulation executables.
@@ -92,11 +96,15 @@ Simulation executes successfully and generates the result files.
 
 ### Main Window
 
-![Main Window](images/main-window.png)
+<p align="center">
+   <img src="images/main-window.png" width="900">
+</p>
 
 ### Simulation Completed
 
-![Simulation Completed](images/simulation-completed.png)
+<p align="center">
+   <img src="images/simulation-completed.png" width="900">
+</p>
 
 ---
 ## Application Workflow
