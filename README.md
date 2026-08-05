@@ -170,5 +170,5 @@ The project follows Object-Oriented Programming principles.
 
 **Diya Latesh**
 
-First-Year Computer Science Engineering Student
+
 
