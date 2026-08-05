@@ -92,11 +92,11 @@ Simulation executes successfully and generates the result files.
 
 ### Main Window
 
-![Main Window](main-window.png)
+![Main Window](images/main-window.png)
 
 ### Simulation Completed
 
-![Simulation Completed](simulation.png)
+![Simulation Completed](images/simulation.png)
 
 ---
 ## Future Enhancements
