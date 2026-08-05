@@ -96,7 +96,7 @@ Simulation executes successfully and generates the result files.
 
 ### Simulation Completed
 
-![Simulation Completed](images/simulation.png)
+![Simulation Completed](images/simulation-completed.png)
 
 ---
 ## Application Workflow
