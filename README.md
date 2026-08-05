@@ -3,19 +3,24 @@
 ![Python](https://img.shields.io/badge/Python-3-blue)
 ![PyQt6](https://img.shields.io/badge/PyQt6-GUI-green)
 ![OpenModelica](https://img.shields.io/badge/OpenModelica-Simulation-orange)
+![License](https://img.shields.io/badge/License-MIT-yellow)
+
+A modern desktop application built with **Python** and **PyQt6** to launch and monitor OpenModelica simulation executables through an intuitive graphical user interface.
+
+---
 
 ## Overview
 
-This project is a desktop application developed using Python and PyQt6 to execute OpenModelica simulation executables.
+The OpenModelica Simulation Launcher simplifies running OpenModelica simulation executables by providing a clean and user-friendly desktop interface.
 
-The application allows the user to:
+Users can:
 
-- Browse and select an OpenModelica executable
-- Enter simulation start time
-- Enter simulation stop time
-- Execute the simulation
-- View execution progress using a progress bar
-- Open the simulation results folder after execution
+- Browse and select an OpenModelica executable (.exe)
+- Configure simulation start time
+- Configure simulation stop time
+- Execute simulations directly from the GUI
+- Monitor execution using a progress bar
+- Open the generated results folder after completion
 
 ---
 
@@ -30,36 +35,45 @@ The application allows the user to:
 
 ## Features
 
-- Browse for executable (.exe)
+- Modern graphical interface
+- Browse executable files
 - Start Time input
 - Stop Time input
-- Run Simulation button
-- Progress bar
-- Success message after execution
-- Open Results button
-- Clean and user-friendly interface
+- One-click simulation execution
+- Progress tracking
+- Automatic success notification
+- Open Results folder button
 
 ---
 
 ## Folder Structure
 
-```
+```text
 OpenModelica_GUI/
 │
 ├── main.py
-├── README.md
 ├── requirements.txt
+├── README.md
+├── images/
+│   ├── main-window.png
+│   └── simulation-completed.png
+│
 ├── TwoConnectedTanks.exe
 ├── libSimulationRuntimeC.dll
-├── TwoConnectedTanks_res.mat
-└── Other generated OpenModelica files
+└── Generated OpenModelica files
 ```
 
 ---
 
 ## Installation
 
-Install the required package:
+Clone the repository
+
+```bash
+git clone https://github.com/diyalatesh/OpenModelica-Simulation-Launcher.git
+```
+
+Install dependencies
 
 ```bash
 pip install -r requirements.txt
@@ -69,45 +83,42 @@ pip install -r requirements.txt
 
 ## Running the Application
 
-Run the application using:
-
 ```bash
 python main.py
 ```
 
-1. Click **Browse** and select the OpenModelica executable.
-2. Enter Start Time.
-3. Enter Stop Time.
-4. Click **Run Simulation**.
-5. After completion, click **Open Results** to view the output files.
+### Steps
+
+1. Click **Browse**
+2. Select the OpenModelica executable
+3. Enter Start Time
+4. Enter Stop Time
+5. Click **Run Simulation**
+6. Wait until execution completes
+7. Click **Open Results** to view generated files
 
 ---
 
-## Example
+# Application Preview
 
-Start Time: 0
-
-Stop Time: 4
-
-Simulation executes successfully and generates the result files.
-
----
-## Application Preview
-
-### Main Window
+## Main Window
 
 <p align="center">
-   <img src="images/main-window.png" width="900">
-</p>
-
-### Simulation Completed
-
-<p align="center">
-   <img src="images/simulation-completed.png" width="900">
+<img src="images/main-window.png" width="900">
 </p>
 
 ---
+
+## Simulation Completed
+
+<p align="center">
+<img src="images/simulation-completed.png" width="900">
+</p>
+
+---
+
 ## Application Workflow
+
 ```text
 Select Executable
         │
@@ -131,25 +142,33 @@ Open Results Folder
 ```
 
 ---
+
 ## Object-Oriented Design
 
-The application follows Object-Oriented Programming principles.
+The project follows Object-Oriented Programming principles.
 
-- `MainWindow` class manages the complete GUI.
-- Methods are separated for browsing files, executing simulations, opening results, and updating progress.
-- The design makes the application modular and easy to extend.
-  
+- MainWindow class manages the complete GUI
+- Separate methods for browsing files
+- Independent simulation execution method
+- Dedicated progress handling
+- Modular design for future expansion
+
 ---
+
 ## Future Enhancements
 
-- Support multiple OpenModelica simulation models.
-- Allow exporting simulation results to CSV.
-- Display simulation graphs directly inside the application.
-- Save previously used simulation configurations.
-- Improve UI with themes and icons.
-
+- Multiple simulation support
+- Export results to CSV
+- Built-in graph visualization
+- Dark mode
+- Save previous simulation configurations
+- Improved settings panel
 
 ---
+
 ## Author
 
-Diya Latesh
+**Diya Latesh**
+
+First-Year Computer Science Engineering Student
+
